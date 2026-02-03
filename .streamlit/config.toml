@@ -1,0 +1,25 @@
+[client]
+showErrorDetails = false
+toolbarMode = "viewer"
+
+[logger]
+level = "info"
+
+[server]
+headless = true
+runOnSave = true
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+port = 8501
+
+[browser]
+gatherUsageStats = false
+serverAddress = "lczheatmoist.streamlit.app"
+
+[theme]
+base = "light"
+primaryColor = "#667eea"
+backgroundColor = "#f0f2f6"
+secondaryBackgroundColor = "#e0e6f0"
+
