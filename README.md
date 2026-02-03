@@ -16,7 +16,7 @@
 
 The app provides comprehensive analysis of 50 major US cities from 2000-2020, enabling researchers, urban planners, and climate scientists to understand how urban morphology influences local climate conditions.
 
-![App Screenshot](docs/screenshot.png)
+![App Screenshot]([docs/screenshot.png](https://github.com/aashish66/Unravel_UHI_UMI_UDI/blob/main/Screenshot1.png))
 
 ## 🔬 Scientific Background
 
