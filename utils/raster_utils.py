@@ -56,10 +56,9 @@ def create_lcz_colormap():
 
 @st.cache_resource
 def get_netcdf_dataset():
-    """Get the NetCDF dataset (cached)"""
-    base_path = Path(__file__).parent.parent.parent
-    nc_path = base_path / "Data" / "raster" / "CONUS_Climate_Data_1km.nc"
-    return xr.open_dataset(nc_path)
+    """Get the NetCDF dataset (cached) - uses S3 loading from data_loader"""
+    from utils.data_loader import load_netcdf
+    return load_netcdf()
 
 
 def lonlat_to_pixel(lon, lat):
